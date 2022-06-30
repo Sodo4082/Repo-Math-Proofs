@@ -1,0 +1,118 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm}
+
+\title{Metric Space Q Practice}
+\author{Raunak Gupta}
+\date{June 2022}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Questions from Simmons section 9}
+
+\proof Q2\\
+
+Given, $d(x,y) \leq d(x,z) + d(y,z)$ \\
+Put x=y , then $0 \leq 2d(y,z)$, Therefore $d(y,z) \geq 0$\\
+Since y,z are arbitrary variables, $d(x,y) \geq 0$.\\
+Put x=z , then $d(z,y) \leq 0 + d(y,z)$, Therefore $d(z,y) \leq  d(y,z)$\\
+Again using the triangle inequality we can write $d(y,z) \leq d(x,y)+ d(x,z)$ and if x=z then we 
+have $d(y,z) \leq  d(z,y)$, therefore using the above inequality, d(z,y)= d(y,z)\\
+Therefore the given metric d is a metric on X.
+\proof Q 3\\
+X,d satisfy the three conditions:
+$d(x,y) \geq 0$ and $x=y \implies d(x,y)=0,
+d(x,y) = d(y,x)$ and $d(x,y) \leq d(x,z) + d(z,y)$\\\\
+This is a pseudo metric ,example of a pseudo metric which is not a metric?
+
+Example d(x,y) = 0 $\forall$ x and y\\
+Part 2: \emph{doubt}\\
+\proof Q 6\\
+$I \subseteq \mathbb{R}$
+Given: I is an interval
+To show: it is non empty and contains all points between any two of its points.
+
+If I is empty then it has no points and hence is not an interval.
+
+
+
+
+\proof  Q 7. \\
+X is a metric space with metric d.\\
+$x \in X$ and
+$A \subseteq X$\\
+To prove: if $A \neq \phi ,d(x,A)\geq 0$ and 
+$d(x,A)= \infty  \Longleftrightarrow A = \phi$\\\\
+(i) To prove If  $d(x,A)=\infty$ then A is empty\\
+Since by definition $d(x,y) \geq 0$ therefore $,d(x,A)\geq 0$\\
+By definition, $d(x,A) = inf \{d(x,a) : a \in A\}$ 
+
+We know that inf(A) is $\infty$ when A is empty, therefore d(x,A) is empty which only means that the ddomain of the function d(x,A) is empty . \\\\
+(ii) To Prove: When A is empty then $d(x,A)=\infty$\\
+This is trivially true from the fact that inf(A) is $\infty$ when A is empty, therefore d(x,A) is empty. This is possible only when the domain of d(x,A) is empty. Since x is a given point, A is empty.
+
+\proof Q 8\\
+X is a metric space with metric d and a is a subset of X.\\
+To prove : if is A is non empty ,d(A) is a non -negative extended real number. 
+\\\\
+By definition $d(A) \geq 0 $ since it is a metric.\\
+
+(ii) (a) To prove: d(A)= $-\infty$ then A is empty\\
+By definition d(A) = sup ( d(x,y) where x,y $\in A$  )
+\\
+We know that sup A where A is any set is $-\infty$ when A is empty. Therefore d(x,y) is empty. This is possible when there are no points in A, hence A is empty\\\\
+(b) To prove:  A is empty then d(A)= $-\infty$ \\
+When A is empty the domain of d(x,y) is empty and since sup(A) is $-\infty$ when A is empty therefore d(A) is  $-\infty$.
+
+
+% ------------------------------------------------------------------------------
+
+
+
+\newpage
+
+\section{Questions From Section 10}
+
+\proof Q1\\
+
+To prove: if x and y are distinct points in X then $\exists$ a disjoint pair of open spheres each of which is centered on one of the points.\\
+
+Open sphere: $S_r(x) = \{x: d(x,x') < r\}$
+
+ince two points, let x and y are distinct d(x,y) >0. Therefore we can define a radius\\
+$2r_o< d(x,y)$ and make two open spheres :\\
+
+$S_{r_o}(x) = \{x: d(x,x') < r_o\}$ and $S_{r_o}(x) = \{x: d(y,x'') < r_o\}$\\
+
+Therefore making two disjoint open spheres
+
+\proof Q2
+
+To Prove: If $ \{x\} $is a singleton subset of X then show that $ \{x\}' $ is open
+(ii) Show that A' is open if A is any finite subset of X
+
+Open set: $\forall x \in A ,\exists S_r(x) = \{x: d(x,x') < r\}\subseteq A$
+
+{x}' = X - {x}
+
+
+Open set: $\forall x \in X - {x} ,\exists S_r(x) = \{x: d(x,x') < r\}\subseteq X - {x}$
+
+doubt --------------
+
+\proof Q3
+
+To prove: A is a subset of X with diameter less than r which intersects with $ S_r(x)$. Prove that A is a subset of $ S_{2r}(x) $  
+
+This means that, let $x \in A \cap $ S_{2r}(x) $  $
+
+
+
+
+
+
+\end{document}
+
