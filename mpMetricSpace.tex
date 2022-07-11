@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm}
+
+\title{Metric Space Q Practice}
+\author{Raunak Gupta}
+\date{June 2022}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Questions from Shane Sirs Slides}
+
+\proof Q1\\
+To prove: $A \subset f^{-1}(f(A))$ where f is $X \rightarrow Y$ and $A \subset X$
+
+Proof: if $a \in A$
+
+$f(A) =\{b : b\in B | a \in A \} $ Where f(A)=B
+
+$f^{-1}(S)= \{x : x \in X | y \in S\}$ Where $S \subseteq Y$
+
+$f^{-1}(f(A)) = \{a : a \in  A| b \in f(A)\} $
+
+Therefore a in $f^{-1}(f(A))$ when $a \in A$. Therefore $A \subset f^{-1}(f(A))$ 
+
+
+
+
+\proof For inverse function:
+
+T.P $f : A \rightarrow B$ be a function. Then f is bijective if and only
+if the inverse relation $f^{-1}$ is a function from B to A.
+
+Proof: Since f is a function $\forall a \in A, \exists! b \in B : f(a)=b$
+
+But the relation $f^{-1}:= \{ (b,a) : (a,b) \in R \}$. Therefore for $f^{-1}$ to be a function\\    $\forall b \in B, \exists! a \in A : f{-1}(b)=a$ 
+
+$(b,a) \in f^{-1} \implies (a,b \in f)$. Since b is any element of B, f is onto
+
+Assume $f(a_1)=f(a_2)=b$ then implies that $(b,a_1), (b,a_2) \in f^{-1} $ \\ Since $\forall b \in B, \exists! a \in A$. It follows that since $f^{-1}(b)=a_1$ and  $f^{-1}= a_2$ , $a_2 = a_1$. Therefore f is one-one.
+
+
+\proof Q2.
+
+T.P : $f: X \rightarrow Y$ is continuous iff for every sequence $a_n \in X$ converging to l the sequnce $f(a_n) \in Y$ converges to f(l)
+
+Proof:\\
+For continutiy of a function $f : X \rightarrow Y$:\\
+Given an $\epsilon > 0, \exists \delta > 0 : d_X(x,y) < \delta \implies d_Y(f(x),f(y)) < \epsilon $
+
+
+$x_n \rightarrow l := \forall \epsilon  \exists N :n>N , d(x_n,l)<\epsilon$ 
+
+
+
+
+dasda
+
+
+
+
+
+
+
+
+
+
+\end{document}

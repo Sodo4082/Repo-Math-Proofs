@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1657123015 "mathproofprac.tex" "mathproofprac.pdf" "mathproofprac" 1657192465
+["pdflatex"] 1657199870 "mpMetricSpace.tex" "mpMetricSpace.pdf" "mpMetricSpace" 1657199870
   "/etc/texmf/web2c/texmf.cnf" 1655225152 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -19,7 +19,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1248133631 37912 77d683123f92148345f3fc36a38d9ab1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -42,9 +41,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1655225464 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1655225496 8256716 6dc62025847c19701bb03564c4d3d9db ""
-  "mathproofprac.aux" 1657123015 237 dc84f42fb30c0eb694ca720738a03053 "pdflatex"
-  "mathproofprac.tex" 1657192460 6353 d3bb139a11eb0fd6192df35cef244913 ""
+  "mpMetricSpace.aux" 1657199870 126 7b79324377266380739f211537bf27df "pdflatex"
+  "mpMetricSpace.tex" 1657199870 1705 082d17e4584060cd45d12f5867868077 ""
   (generated)
-  "mathproofprac.log"
-  "mathproofprac.aux"
-  "mathproofprac.pdf"
+  "mpMetricSpace.pdf"
+  "mpMetricSpace.log"
+  "mpMetricSpace.aux"
